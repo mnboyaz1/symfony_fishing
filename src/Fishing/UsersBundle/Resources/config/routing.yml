@@ -1,0 +1,30 @@
+fishing_users_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: FishingUsersBundle:Default:index }
+
+fishing_users_newuser:
+    path:    /newuser
+    defaults: { _controller: FishingUsersBundle:NewUser:index }
+
+fishing_users_updateuser:
+    path:   /updateuser
+    defaults: { _controller: FishingUsersBundle:UpdateUser:index }
+
+fishing_users_viewusers:
+    path:   /viewusers
+    defaults: { _controller: FishingUsersBundle:ViewUsers:index }
+
+fishing_users_session:
+    path: /session
+    defaults: { _controller: FishingUsersBundle:Session:index }
+
+fishing_users_login:
+    path:  /login
+    defaults: { _controller: FishingUsersBundle:Security:login }
+
+fishing_users_login_check:
+    path:  /login_check
+
+fishing_users_admin:
+    path:     /admin
+    defaults: { _controller: FishingUsersBundle:Default:admin }

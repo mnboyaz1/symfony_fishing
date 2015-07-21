@@ -1,0 +1,6 @@
+fishing_lakes_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: FishingLakesBundle:Default:index }
+fishing_lakes_get:
+    path:    /get
+    defaults: { _controller: FishingaLakesBundle:Get:index }

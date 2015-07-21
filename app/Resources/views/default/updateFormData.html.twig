@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}User Input{% endblock %}
+
+{% block body %}
+    New User Input Form!
+	{{ form_start(users) }}
+        {{ form_widget(users) }}
+		<br>
+    {{ form_end(users) }}
+	
+{% endblock %}
